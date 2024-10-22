@@ -4,11 +4,11 @@ firebase.auth().onAuthStateChanged((user) => {
       // https://firebase.google.com/docs/reference/js/v8/firebase.User
       var uid = user.uid;
     } else {
-      console.log(window.location.pathname == '/public/cultural.html');
-      console.log(window.location.pathname + '/public/cultural.html');
+      console.log(window.location.pathname == '/cultural.html');
+      console.log(window.location.pathname + '/cultural.html');
 
 
-      if (window.location.pathname == '/public/cultural.html') {
+      if (window.location.pathname == '/cultural.html') {
         window.location.href = 'index.html'; 
       }
     }
