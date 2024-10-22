@@ -5,7 +5,7 @@ firebase.auth().onAuthStateChanged((user) => {
       var uid = user.uid;
     } else {
       console.log(window.location.pathname == '/cultural.html');
-      console.log(window.location.pathname + '/cultural.html');
+      console.log(window.location.pathname + ' /cultural.html');
 
 
       if (window.location.pathname == '/cultural.html') {
