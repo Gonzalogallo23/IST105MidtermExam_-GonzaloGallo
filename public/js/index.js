@@ -8,7 +8,7 @@ window.addEventListener('load', function () {
         firebase.auth().signInWithPopup(provider)
             .then(function (result) {
                 console.log('Logging sucessfully', result.user);
-                location.href = 'cultural.html';
+                location.href = 'culturalConnections.html';
             })
             .catch(function (error) {
                 console.log('Logging fail', error);
