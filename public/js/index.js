@@ -27,7 +27,7 @@ window.addEventListener('load', function () {
                 // ...
                 console.log('Logging sucessfully');
                 alert('Logging sucessfully');
-                location.href = 'cultural.html';
+                location.href = 'culturalConnections.html';
             })
             .catch((error) => {
                 let errorCode = error.code;
@@ -55,7 +55,7 @@ window.addEventListener('load', function () {
                     const user = result.user;
                     console.log('Logging successfully with phone number:', user);
                     alert('Logging successfully with phone number');
-                    location.href = 'culturalconnections.html';
+                    location.href = 'culturalConnections.html';
                 })
                 .catch((error) => {
                     console.error('Error during phone number sign-in:', error);
